@@ -1,0 +1,54 @@
+.validationScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.loader {
+  font-size: 20px;
+  color: #007bff;
+  margin-top: 20px;
+}
+
+.contentContainer {
+  display: flex; /* Use flexbox for the image and form layout */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Space between the image and the form */
+  margin-top: 20px; /* Space above the content */
+}
+
+.imageContainer {
+  flex: 1; /* Allow the image container to grow */
+  max-width: 500px; /* Set a maximum width for the image container */
+}
+
+.image {
+  max-width: 100%; /* Ensure the image scales responsively */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: add border radius for aesthetics */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Fixed width for the form */
+  margin-top: 0; /* Reset margin since it's part of the content container now */
+}
+
+.formGroup {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

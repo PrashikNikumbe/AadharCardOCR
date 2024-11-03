@@ -1,0 +1,65 @@
+.captureScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.cameraContainer {
+  position: relative;
+  width: 640px; /* Increased width */
+  height: 480px; /* Increased height */
+  border: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+.videoFeed {
+  width: 100%;
+  height: 100%;
+}
+
+.overlayBox {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%; /* Increased box size */
+  height: 60%; /* Increased box size */
+  border: 2px dashed #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.previewImage {
+  margin-top: 20px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.submitButton {
+  margin-top: 10px;
+}
